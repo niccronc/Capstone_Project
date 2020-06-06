@@ -1,0 +1,6 @@
+digraph FlowChart {
+	"Load History" -> "Every Game":" Update with new data"
+	"Every Game":" Update with new data" -> "get injury prediction %"
+	"get injury prediction %" -> "Risk the player?"
+	"Risk the player?" -> "Every Game":" Update with new data"
+}
